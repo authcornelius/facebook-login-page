@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: #dddada;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+}
+
+section {
+  text-align: center;
+  height: 650px;
+}
+
+section .facebookLogo {
+  width: 15%;
+  height: 40px;
+}
+
+section .errorMessage {
+  margin: 20px auto;
+}
+
+section .errorMessage span.col-sm-12 {
+  border: 1px solid red;
+}
+
+section .errorMessage span.col-sm-12 input {
+  width: 90%;
+}
+
+section .card {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px 0px;
+  border-radius: 7px;
+  -webkit-box-shadow: 10px black;
+          box-shadow: 10px black;
+}
+
+section .card .input {
+  height: 50px;
+  width: 90%;
+  margin: 10px 0px;
+  padding: 15px 15px;
+  border: 1px solid #d6d1d1;
+  border-radius: 3px;
+}
+
+section .card .login {
+  width: 90%;
+  height: 45px;
+  border-radius: 5px;
+  color: #fff;
+  background: #4949ad;
+  border: none;
+  margin: 5px 0px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+section .card a.forgottenAccount {
+  color: blue;
+  font-weight: 500;
+}
+
+section .card .signUpBtn {
+  border: none;
+  background: #3fd13fe3;
+  color: #feffff;
+  border-radius: 5px;
+  width: 45%;
+  height: 45px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+footer {
+  background: #fff;
+  padding: 27px 0px;
+}
+/*# sourceMappingURL=style.css.map */
